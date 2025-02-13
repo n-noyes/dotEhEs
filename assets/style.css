@@ -9,6 +9,11 @@
 	/* alternative color 2	*/
 }
 
+#siteContainer{
+	display: flex;
+	flex-direction: row;
+}
+
 body {
 	background: var(--back);
 	color: var(--text);
