@@ -1,5 +1,5 @@
 :root {
-	--back: #415646;
+	--back: #2d586e;
 	/* background color	*/
 	--text: #e7e7e7;
 	/* text color		*/
@@ -9,9 +9,9 @@
 	/* alternative color 2	*/
 }
 
-#siteContainer{
+#site-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 body {
@@ -20,42 +20,49 @@ body {
 	font-family: serif;
 }
 
-#headerContainer {
+#header-container {
 	color: var(--text);
 
 }
 
-#headerContainer a {
+#header-container a {
 	color: var(--text);
 	text-decoration: none;
 	text-transform: uppercase;
 
 }
 
-#titleBar {
-	font-size: 1.5rem;
+#title-bar {
+	font-size: 20px;
 	text-align: center;
 
 }
 
-#navBar {
+#footer-container {
+	display: flex;
+	justify-content: center;
+}
+
+#nav-bar {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	justify-content: space-evenly;
-
 }
 
-#navBar a {
-	font-size: 1rem;
+#nav-bar a {
+	font-size: 18px;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
-#navBar a:hover {
+#nav-bar a:hover {
 	font-style: bold;
 }
 
-#bodyContainer {
+#body-container {
+	display: flex;
+	justify-content: center;
 	color: var(--text);
-	text-align: center;
+	text-align: justify;
 
 }
