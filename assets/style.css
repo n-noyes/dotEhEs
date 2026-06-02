@@ -18,6 +18,7 @@ body {
 	background: var(--back);
 	color: var(--text);
 	font-family: serif;
+	text-align: center;
 }
 
 #header-container {
@@ -29,6 +30,11 @@ body {
 	color: var(--text);
 	text-decoration: none;
 	text-transform: uppercase;
+
+}
+
+#header-container a:hover {
+	text-decoration: underline;
 
 }
 
@@ -61,15 +67,32 @@ body {
 
 #body-container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	color: var(--text);
 	text-align: justify;
+}
+
+.lists {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 5px black;
+}
+
+.lists h3 {
+	text-align: center;
+	text-transform: uppercase;
 
 }
 
-lists {
-	display: flex;
-	justify-content: left;
-	background-color: black;
+.lists ul {
+	padding-left: 0;
+	margin-left: 0;
+	list-style-position: inside;
+}
 
+.lists li {
+	padding-left: 40%;
+	padding-right: 40%;
 }
