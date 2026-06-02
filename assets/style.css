@@ -73,6 +73,10 @@ body {
 	text-align: justify;
 }
 
+#body-container h2 {
+	text-align: center;
+}
+
 .lists {
 	display: flex;
 	flex-direction: column;
